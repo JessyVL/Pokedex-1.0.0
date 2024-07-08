@@ -45,3 +45,20 @@
     width: 40px;
     aspect-ratio: 1;
 }
+
+
+@media (width < 380px) {
+    .pokeheader__img {
+        width: 200px;
+    }
+
+    .pokeheader__outcircle {
+        width: 60px;
+        border: 5px solid #000;
+    }
+    
+    .pokeheader__incircle {
+        width: 30px;
+        border: 4px solid #000;
+    }
+}

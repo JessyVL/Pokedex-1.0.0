@@ -22,14 +22,15 @@ const HomePage = () => {
 
 
   return (
-    <div>
-    <h1>Pokedex</h1>
-    <h2>Hi trainer</h2>
-    <p>To start give me your name</p>
-    <form onSubmit={HandleSubmit}>
-        <input ref={textInput} type="text" />
-        <button>Start</button>
+    <div className='pokeHome'>
+    <div className='pokeHome__container'>
+    <h2 className='pokeHome__hello'>Hi trainer</h2>
+    <p className='pokeHome__presentation'>To start give me your name</p>
+    <form className='pokeHome__form' onSubmit={HandleSubmit}>
+        <input className='pokeHome__input' ref={textInput} type="text" />
+        <button className='pokeHome__btn'>Start</button>
     </form>
+    </div>
     </div>
   )
 }
